@@ -1,0 +1,33 @@
+/*****************************************/
+/*  reseta os padroes dos navegadores
+/*****************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/**********************************/
+/*  estilos gerais
+/**********************************/
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto; 
+  background-color:#021221; 
+  font-family: 'Raleway';
+  line-height: 1; 
+  color: #FFFF; 
+}
+
+a{
+  color: #FFFF;
+}
+
+
+
+

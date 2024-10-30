@@ -1,0 +1,40 @@
+/*****************************************/
+/*  estilização newsletter
+/*****************************************/
+
+
+.newsletter {
+  background-color: #15162d;
+}
+
+.formulario__newsletter {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.newsletter__form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 500px;
+}
+
+.input__padrao {
+  padding: 10px;
+}
+
+.newsletter__botao {
+  margin: 10px;
+  padding: 5px;
+  
+}
+
+label{
+    margin: 10px 10px 10px 0;
+}

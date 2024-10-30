@@ -1,0 +1,31 @@
+/*****************************************/
+/*  estilização musicas + populares
+/*****************************************/
+.videos__container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 10px;
+}
+
+.videos__item{
+    height: 303px;
+    width: 280px;
+    flex-grow: 1;
+}
+
+.videos__item img{
+    width: 100%;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.videos__item_titulo{
+    text-align: center;
+    font-size:medium;
+    margin-top: 10px;
+
+}

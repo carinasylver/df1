@@ -1,0 +1,22 @@
+
+/*****************************************/
+/*  estilização  cabeçalho
+/*****************************************/
+.cabecalho__banner{
+    width: 100%;
+}
+
+.cabecalho__menu{
+    background-color: #021221;  
+}
+
+.cabecalho__menu__links{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    padding: 20px;
+    font-size: 1.5rem;
+    
+}
+
+

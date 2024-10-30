@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Billie Eilish</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img
+        class="cabecalho__banner"
+        src="./assets/img/banner-header.jpg"
+        alt=""
+        srcset=""
+      />
+      <nav class="cabecalho__menu">
+        <ul class="cabecalho__menu__links">
+          <li><a href="#sobremim">Sobre</a></li>
+          <li><a href="#albuns">Álbuns</a></li>
+          <li><a href="#populares">Populares</a></li>
+          <li><a href="./store.html">Store</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="sobre" id="sobre" aria-label="sobre">
+        <p>
+          Billie Eilish Pirate Baird O'Connell é uma cantora e compositora
+          estadunidense. Ganhou popularidade em 2016, quando lançou o single de
+          estreia "Ocean Eyes" no SoundCloud, posteriormente lançado pelas
+          gravadoras Darkroom e Interscope Records.
+        </p>
+        <div class="audio__album">
+          <audio preload="metadata" controls autoplay loop>
+            <source
+              src="./assets/audio/billieEilish-WILDFLOWER.mp3"
+              type="audio/mpeg"
+            />
+            <source
+              src="./assets/audio/billieEilish-WILDFLOWER.ogg"
+              type="audio/ogg"
+            />
+            <p>Seu navegagor nao suporta o elemento audio.</p>
+          </audio>
+        </div>
+      </section>
+      <section class="albuns" id="albuns" aria-label="albuns">
+        <h1>Álbuns</h1>
+        <ul class="discografia__container">
+          <li class="albuns__album">
+            <img src="./assets/img/album-2024.jpg" alt="" />
+            <h2 class="albuns__album_titulo">HIT ME HARD AND SOFT</h2>
+          </li>
+          <li class="albuns__album">
+            <img src="./assets/img/album-2021.jpg" alt="" />
+            <h2 class="albuns__album_titulo">Happier Than Ever</h2>
+          </li>
+          <li class="albuns__album">
+            <img src="./assets/img/album-2019.jpg" alt="" />
+            <h2 class="albuns__album_titulo">
+              WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?
+            </h2>
+          </li>
+        </ul>
+      </section>
+      <section class="populares" id="populares">
+        <h1>Populares</h1>
+        <ul class="videos__container">
+          <li class="videos__item">
+            <iframe
+              width="100%"
+              height="72%"
+              src="https://www.youtube.com/embed/lm20v6ASSFI?si=WE_AxXwX7pWFUMMS"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h2 class="videos__item_titulo">BIRDS OF A FEATHER</h2>
+          </li>
+          <li class="videos__item">
+            <iframe
+              width="100%"
+              height="72%"
+              src="https://www.youtube.com/embed/lm20v6ASSFI?si=WE_AxXwX7pWFUMMS"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h2 class="videos__item_titulo">CHIRIRO</h2>
+          </li>
+          <li class="videos__item">
+            <video width="100%" height="72%" preload="metadata" controls>
+              <source src="./assets/video/video1.mp4" type="video/mp4" />
+              <p>Seu navegagor nao suporta o elemento viddeo.</p>
+            </video>
+            <h2 class="videos__item_titulo">WILDFLOWER</h2>
+          </li>
+          <li class="videos__item">
+            <iframe
+              width="100%"
+              height="72%"
+              src="https://www.youtube.com/embed/lm20v6ASSFI?si=WE_AxXwX7pWFUMMS"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <h2 class="videos__item_titulo">OCEAN EYES</h2>
+          </li>
+        </ul>
+      </section>
+      <section class="newsletter" id="newsletter">
+        <h1>Newsletter</h1>
+        <p>
+          Inscreva-se para receber notícias, exclusividades, concursos e muito
+          mais de Billie Eilish
+        </p>
+        <div class="formulario__newsletter">
+          <form class="newsletter__form" action="" method="post">
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              autofocus
+              class="input__padrao"
+            />
+            <label for="lastname">Sobrenome</label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              required
+              class="input__padrao"
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              autocomplete="on"
+              pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" 
+              class="input__padrao"
+            />            
+            <label for="pais">País</label>
+            <input list="pais" name="pais" required class="input__padrao">
+            <datalist id="pais">
+              <option value="">Selecione um país</option>
+              <option value="Brasil">Brasil</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Chile">Chile</option>
+              <option value="Colômbia">Colômbia</option>
+              <option value="Equador">Equador</option>
+              <option value="Paraguai">Paraguai</option>
+              <option value="Peru">Peru</option>
+              <option value="Uruguai">Uruguai</option>
+              <option value="Venezuela">Venezuela</option>
+            </datalist>
+            <button class="newsletter__botao" id="enviar" type="submit">
+              Inscrever-se
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Copyright © 2024 | Desenvolvido por CSDeveloper</p>
+    </footer>
+  </body>
+</html>

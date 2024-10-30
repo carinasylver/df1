@@ -1,0 +1,9 @@
+
+/*****************************************/
+/*  estilização do rodapé
+/*****************************************/
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+}

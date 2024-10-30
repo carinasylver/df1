@@ -1,0 +1,26 @@
+/*****************************************/
+/*  estilização albuns
+/*****************************************/
+
+.albuns{  
+   text-align: center;
+   background-color: rgb(14, 13, 13);  
+}
+
+.discografia__container{    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+    padding: 40px;
+    gap: 10px;    
+}
+
+
+.albuns__album_titulo{
+    font-size: small;
+    margin-top: 10px;
+}
+
+h1{
+    padding: 40px 0 0;
+}
+

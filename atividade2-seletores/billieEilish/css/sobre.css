@@ -1,0 +1,17 @@
+/*****************************************/
+/*  estilização sobre
+/*****************************************/
+.sobre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5%;
+    line-height: 1.5; 
+    font-size: 1.5rem;
+}
+
+.audio__album{
+    padding: 20px;
+}
