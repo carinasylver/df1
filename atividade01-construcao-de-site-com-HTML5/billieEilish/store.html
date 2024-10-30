@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="./script.js" defer></script>
+  <title>Billie Eilish | Store</title>
+</head>
+
+<body>
+  <div class="banner__store">
+    <img src="./assets/img/banner-store.jpg" alt="" style="width: 100%" />
+  </div>
+  <section class="container__tshirt">
+    <h1>Monte a sua T-shirt da Billie</h1>
+    <div class="albuns">
+      <img src="./assets/img/album-2019.jpg" style="width: 220px" ondragstart="arrastar(event)">
+      <img src="./assets/img/album-2021.jpg" style="width: 220px" ondragstart="arrastar(event)">
+      <img src="./assets/img/album-2024.jpg" style="width: 220px" ondragstart="arrastar(event)">
+    </div>
+    <div class="tshirt" style="width: 500px; height: 600px; border:1px solid darkgreen;">
+      <p>aqui vai a camiseta</p>
+      <div class="tshirt__album" style="width: 220px; height: 220px; border:1px solid rgb(11, 12, 11);"
+        ondrop="soltar(event)" ondragover="permiteSoltar(event)">
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
