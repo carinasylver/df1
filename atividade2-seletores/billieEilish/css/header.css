@@ -6,9 +6,6 @@
     width: 100%;
 }
 
-.cabecalho__menu{
-    background-color: #021221;  
-}
 
 .cabecalho__menu__links{
     display: flex;

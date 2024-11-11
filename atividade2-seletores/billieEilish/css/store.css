@@ -2,10 +2,39 @@
 /*  estilização loja
 /*****************************************/
 
-img{
+.store{
+    background-color: #040820;
+}
+
+.banner__store img{
     width: 100%;
-    height: 300px;
- 
+}
+
+
+.container__tshirt{
+    background-color: #15162D;
+    padding: 30px;
+}
+
+.titulo__store{
+    padding: 20px 0 40px;
+    margin-left: 80px;
+    text-align: left;
+    font-size: xx-large;
+}
+
+
+.container__albuns__tshirt{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+.albuns{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
 }
 
 /* .banner__store img{
@@ -18,3 +47,55 @@ img{
     background-repeat: no-repeat;
     background-size:cover;
 }
+
+
+.tshirt {
+    background-image: url(../assets/img/tshirt.png);
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid darkgreen; */
+    padding: 10px;  
+    background-color: #15162D;
+    background-position: center;    
+    position: relative; 
+
+}
+
+img {
+    width: 200px;
+}
+
+.tshirt__album{
+    width:180px;
+    height: 180px;   
+    position: absolute;
+    top:170px;
+    left:50%;
+    transform: translate(-50%);  
+    border:2px solid;  
+}
+
+.arrastar {
+    /* estilo quando a imagem está sendo arrastada */
+    border:3px dotted #080808;
+      
+}
+
+.tshirt__album img{
+    width:100%;
+    height:100%;
+}
+
+.titulo__tshirt{
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+footer{
+    padding: 20px;
+}
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./script.js" defer></script>
+  <title>Billie Eilish | Store</title>
+</head>
+
+<body class="store">
+  <div class="banner__store">
+    <img src="./assets/img/banner-store.jpg" alt=""/>
+  </div>
+  <header>
+    <nav class="cabecalho__menu">
+      <ul class="cabecalho__menu__links">
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Álbuns</a></li>
+        <li><a href="#">Populares</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">Newsletter</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="container__tshirt">
+      <h1 class="titulo__store">Monte a sua T-Shirt da Billie</h1>
+      <div class="container__albuns__tshirt">
+        <div class="albuns">
+          <img class="albuns__album" src="./assets/img/album-2019.jpg" ondragstart="arrastar(event)">
+          <img class="albuns__album" src="./assets/img/album-2021.jpg" ondragstart="arrastar(event)">
+          <img class="albuns__album" src="./assets/img/album-2024.jpg" ondragstart="arrastar(event)">
+        </div>
+        <div class="tshirt">
+          <div class="tshirt__album"
+            ondrop="soltar(event)" ondragover="permiteSoltar(event)">
+            <h1 class="titulo__tshirt">Arraste a T-Shirt aqui</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © 2024 | Desenvolvido por CSDeveloper</p>
+  </footer>
+</body>
+
+</html>
