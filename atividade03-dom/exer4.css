@@ -1,0 +1,10 @@
+#colorBox{    
+    
+    width: 260px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+#colorInput{
+    width: 255px;
+}
