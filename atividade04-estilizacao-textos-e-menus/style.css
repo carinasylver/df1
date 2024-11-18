@@ -1,4 +1,17 @@
-#texto_p1{
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+a:hover, a:active {
+    background-color: #919292;
+    color: white;
+}
+
+#texto_p1 {
     color: blueviolet;
     /* font-size: 1em;
     font-style: normal;
@@ -10,10 +23,10 @@
     text-transform: capitalize;
     text-shadow: 1px 2px #2e2e2e;
     line-height: 1.2;
-    text-align:justify;
+    text-align: justify;
 }
 
-#texto_p2{
+#texto_p2 {
     color: rgb(226, 43, 104);
     /* font-size: 1.5em;
     font-style: italic;
@@ -29,17 +42,16 @@
     text-align: center;
 }
 
-#texto_p3{
+#texto_p3 {
     color: rgb(59, 184, 177);
     font-size: 2em;
     font-family: "Raleway", sans-serif;
-    font-style:oblique;
-    font-weight:lighter;
+    font-style: oblique;
+    font-weight: lighter;
     text-decoration: line-through;
     letter-spacing: -3px;
     word-spacing: -5px;
     text-transform: uppercase;
     text-shadow: 3px 2px #2e2e2e;
-    text-align:right;
+    text-align: right;
 }
-
