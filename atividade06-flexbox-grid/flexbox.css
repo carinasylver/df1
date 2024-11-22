@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f3efef;
+}
+
+/*mobile first*/
+.container__cabecalho {
+  background-color: #ffff;
+  margin: 10px;
+}
+
+.cabecalho {
+  text-align: center;
+  padding: 30px;
+}
+
+.menu__cabecalho {
+  background-color: black;
+  padding: 10px;
+}
+
+.menu__lista__cabecalho {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu__lista__cabecalho a {
+  color: #ffff;
+}
+
+.conteudo {
+  padding: 10px;
+}
+
+.conteudo__titulo {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section__conteudo {
+  background-color: #ffff;
+  padding: 20px 10px;
+}
+
+.section__conteudo img {
+  height: 200px;
+  width: 100%;
+}
+
+.texto {
+  display: none;
+}
+
+aside {
+  display: none;
+}
+
+aside img {
+  display: none;
+}
+/*-----------*/
+/*telas tablets*/
+@media (min-width: 600px) {
+  .container__cabecalho {
+    margin: 10px;
+    padding: 10px;
+  }
+  .menu__lista__cabecalho {
+    flex-direction: row;
+  }
+
+  .texto {
+    display: none;
+  }
+
+  .conteudo {
+    padding: 0px;
+  }
+
+  .section__conteudo {    
+    margin: 10px;
+  }
+}
+
+/*telas desktops*/
+@media (min-width: 992px) {
+  .conteudo {
+    display: flex;
+    gap: 10px;
+  }
+
+  .section__conteudo {
+    flex: 75%;     
+    margin: 0px 0px 0px 10px;
+    
+  }
+
+  aside {
+    background-color: #ffff;
+    display: block;   
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  aside img {
+    display: block;
+    max-width: 150px;
+  }
+
+  .container__autora{
+    margin-bottom: 20px;
+  }
+}
